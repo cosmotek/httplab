@@ -1,3 +1,5 @@
+**This is a fork of the project, created with the intent of updating the project to more recent version of Go and fixing issues with dependencies that have broken this project**
+
 ![HTTPLAB](https://github.com/gchaincl/httplab/blob/master/images/httplab_logo.png)
 
 [![Build Status](https://travis-ci.org/gchaincl/httplab.svg?branch=master)](https://travis-ci.org/gchaincl/httplab) [![Go Report Card](https://goreportcard.com/badge/github.com/gchaincl/httplab)](https://goreportcard.com/report/gchaincl/httplab) [![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat-square)](http://makeapullrequest.com)
@@ -13,23 +15,11 @@ HTTPLabs let you inspect HTTP requests and forge responses.
 # Install
 ### Golang
 ```bash
-go get github.com/gchaincl/httplab
-go install github.com/gchaincl/httplab/cmd/httplab
-```
-
-### Archlinux
-```
-yaourt httplab
-```
-
-### ~Snap~ [FIXME](https://github.com/gchaincl/httplab/issues/78)
-On [systems](https://snapcraft.io/docs/core/install) where snap is supported:
-```
-snap install httplab
+go install github.com/gchaincl/httplab/cmd/httplab@latest
 ```
 
 ### Binary distribution
-Each release provides pre-built binaries for different architectures, you can download them here: https://github.com/gchaincl/httplab/releases/latest
+Each release provides pre-built binaries for different architectures, you can download from the Github releases page of this repository.
 
 ## Help
 ```
